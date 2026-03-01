@@ -15,7 +15,7 @@
 * [License](#license)
 
 ## Project Overview
-This project involves the comprehensive business process analysis and requirements engineering for **CountryFresh Food Co.**, a premium grocery retailer. The initiative, titled **"CountryFresh Rewards,"** aims to modernize the customer experience by replacing fragmented, manual promotional methods with a centralized, data-driven loyalty ecosystem. The project covers the full discovery phase, process modeling (BPMN), and the definition of functional specifications for a $135,000 technology implementation.
+This project involves the comprehensive business process analysis and requirements engineering for CountryFresh Food Co., a premium grocery retailer. The initiative, titled "CountryFresh Rewards," aims to modernize the customer experience by replacing fragmented, manual promotional methods with a centralized, data-driven loyalty ecosystem. The project covers everything from initial discovery and process modeling (BPMN) to the definition of 20+ functional requirements and a robust testing framework.
 
 ## Problem Statement
 CountryFresh Food Co. currently faces a "data blind spot" at the point of sale. 
