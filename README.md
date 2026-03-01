@@ -1,36 +1,79 @@
-# CountryFresh Rewards – Loyalty Program Business Analysis
+# CountryFresh Rewards – Loyalty Program Implementation 
 
-## Overview
+![Business Analysis](https://img.shields.io/badge/Role-Business%20Analysis-green) ![SDLC](https://img.shields.io/badge/SDLC-Waterfall-blue) ![Retail](https://img.shields.io/badge/Domain-Retail-orange)
 
-CountryFresh Food Co., a Canadian premium grocery retailer, currently relies on traditional marketing methods such as flyers and generic promotions. While effective for brand awareness, these approaches lack personalization and do not leverage customer transaction data to drive repeat visits or long-term loyalty.
+## Table of Contents
+* [Project Overview](#project-overview)
+* [Problem Statement](#problem-statement)
+* [Goals and Objectives](#goals-and-objectives)
+* [Data Sources and Methodology](#data-sources-and-methodology)
+* [File and Folder Structure](#file-and-folder-structure)
+* [Key Findings/Results](#key-findingsresults)
+* [Tools and Technologies](#tools-and-technologies)
+* [Usage and Access](#usage-and-access)
+* [Contributors and Contact Information](#contributors-and-contact-information)
+* [License](#license)
 
-This project proposes **CountryFresh Rewards**, a data-driven loyalty program designed to increase customer retention, improve basket size, and enhance customer lifetime value across all age demographics — with targeted engagement strategies for students and young professionals.
+## Project Overview
+This project involves the comprehensive business process analysis and requirements engineering for **CountryFresh Food Co.**, a premium grocery retailer. The initiative, titled **"CountryFresh Rewards,"** aims to modernize the customer experience by replacing fragmented, manual promotional methods with a centralized, data-driven loyalty ecosystem. The project covers the full discovery phase, process modeling (BPMN), and the definition of functional specifications for a $135,000 technology implementation.
 
----
+## Problem Statement
+CountryFresh Food Co. currently faces a "data blind spot" at the point of sale. 
+* **Anonymous Transactions:** The brand cannot identify individual customers or track purchase history.
+* **Inefficient Marketing:** Reliance on weekly paper flyers results in generic promotions that fail to resonate with younger demographics.
+* **Siloed Data:** Current rewards (like the legacy Salad Bar Card) are not integrated, leading to a fragmented customer experience and missed cross-selling opportunities.
 
-## Solution Highlights
+## Goals and Objectives
+The project is designed to deliver measurable business value through several strategic objectives:
+* **Retention:** Achieve a **10% improvement** in 90-day customer retention.
+* **Engagement:** Increase repeat customer visits by **15%** within the first six months.
+* **Acquisition:** Grow the student and young professional customer segment by **20%**.
+* **Operational Excellence:** Ensure loyalty identification adds no more than **2 seconds** to total checkout time (NFR-01).
+* **Compliance:** Ensure 100% adherence to data privacy regulations regarding PII masking (NFR-04).
 
-- Structured loyalty enrollment and rewards system  
-- Points calculation driven by business rules  
-- Personalized offers based on transaction data  
-- Student discount integration  
-- KPI framework to measure success and ROI  
+## Data Sources and Methodology
+* **Data Sources:** Analysis was performed using internal business artifacts, including existing Salad Bar Card usage rates, transaction volume estimates, and stakeholder interviews to define a **$135,000 budget** (including 15% contingency).
+* **Methodology:** * **Process Mapping (BPMN 2.0):** Developed AS-IS and TO-BE process models to visualize the transition from manual cashier intervention to automated system-driven workflows.
+    * **Gap Analysis:** Identified technical gaps in customer identification and real-time discount application.
+    * **Requirements Engineering:** Translated business objectives into a structured **Functional & Non-Functional Requirements** document.
+    * **Traceability:** Created a **Requirements Traceability Matrix (RTM)** to ensure every Business Objective (BO) is mapped to a testable User Acceptance (UAT) scenario.
 
----
+## File and Folder Structure
+* `README.md`: Project summary and documentation guide.
+* `documentation/`:
+    * `Project_Charter.pdf`: Project authorization, high-level scope, and budget.
+    * `Business_Process_Analysis.pdf`: Deep dive into AS-IS vs. TO-BE comparisons.
+    * `Functional_NonFunctional_Requirements.pdf`: Detailed system behavior and constraints.
+    * `Business_Rules_Catalog.pdf`: Logic for point accrual, student discounts, and precedence.
+* `testing_and_results/`:
+    * `Requirements_Traceability_Matrix.pdf`: End-to-end mapping of goals to UAT.
+    * `KPI_Framework_Success_Metrics.pdf`: Framework for measuring ROI post-launch.
+    * `UAT_Scenarios.pdf`: Test scripts for validating system functionality.
+* `visuals/`:
+    * `AS-IS_Process_BPMN.pdf`: Diagram of the current manual process.
+    * `TO-BE_Process_BPMN.pdf`: Diagram of the optimized loyalty process.
 
-## Deliverables Included
+## Key Findings/Results
+* **The "To-Be" Transformation:** The new process replaces the siloed "Salad Bar Card" with a unified Rewards ID, allowing for transaction-level CRM data capture.
+* **Personalization Strategy:** Data indicates that a **10% Student Tuesday Discount** (BR-03) is the primary lever for capturing the high-lifetime-value young professional segment.
+* **Risk Mitigation:** Identified data privacy as a "High" priority; successfully mandated **PII masking** (UAT-14) on cashier-facing screens to ensure security and compliance.
 
-- Project Charter  
-- Business Process Analysis  
-- Business Rules Catalog  
-- Functional & Non-Functional Requirements  
-- Requirements Traceability Matrix (RTM)  
-- UAT Scenarios  
-- AS-IS & TO-BE BPMN Process Models  
-- KPI & Success Metrics Framework  
+## Tools and Technologies
+* **Business Modeling:** LucidChart / BPMN 2.0
+* **Documentation:** Microsoft Word / Adobe Acrobat
+* **Analysis & Tracking:** Microsoft Excel (for the RTM and KPI Framework)
 
----
+## Usage and Access
+This repository is organized to follow the logical flow of a Business Analysis engagement:
+1. **Initiation:** Start with the `Project_Charter.pdf` for the business case.
+2. **Analysis:** Review `Business_Process_Analysis.pdf` to see how checkout flows were optimized.
+3. **Execution:** Refer to the `Requirements` and `Business Rules` for technical implementation logic.
+4. **Validation:** Review the `RTM.pdf` to see how requirements are traced to `UAT_Scenarios.pdf`.
 
-## Business Impact
+## Contributors and Contact Information
+* **Pramila Poudel** – Business Analyst
+* https://www.linkedin.com/in/pramilapoudelbusinessanalyst/
+* pramilapoudel023@gmail.com
 
-This initiative enables CountryFresh to transition from generic promotions to measurable, data-driven customer engagement — supporting increased repeat visits, stronger retention, and long-term revenue growth.
+## License
+This project is licensed under the [MIT License](LICENSE.txt).
